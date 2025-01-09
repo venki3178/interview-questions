@@ -1,0 +1,36 @@
+What is REST(Representational State Transfer)?
+REST is an architectural pattern for designing networked applications.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What are RESTful services?
+RESTful services are web services that follows REST principles to create scalable, efficient and stateless systems.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What are the REST principles?
+There are 6 core principles are there to form foundation of REST. 
+	
+1.Client-Server architecture:
+	REST operates on the client-server model, where the client and the server are separate entities that communicate over a network.
+
+2.Uniform interface:
+	REST requires that the interactions between clients and servers are standardized and follow a uniform interface. 
+	The uniform interface is achieved through:
+		i) Using HTTP methods (GET, POST, PUT, DELETE, PATCH) to perform actions on resources.
+		ii) Resources being identified using URIs (Uniform Resource Identifiers).
+3.Statelessness: 
+	The server does not store any state(information) about the client between requests.
+	This means every request is independent.
+	Example if client sends one request to server after that even client sends same request to server second time, the server will treat those two 	requests as two different requests.
+
+4.Caching:
+	Responses can be cached to avoid overloading the server unnecessarily.
+
+5.Layered system
+	An application architecture needs to be composed of multiple layers.
+	There can be lot of intermediate servers between client and the end server.
+
+6.Code on demand
+	It is an optional feature. According to this, Servers provides precompiled files to client.
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------
+	
